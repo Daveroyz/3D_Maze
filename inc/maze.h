@@ -19,6 +19,7 @@
 #else
 #include <SDL.h>
 #include <SDL_image.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
