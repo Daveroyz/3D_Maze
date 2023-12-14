@@ -2,8 +2,8 @@
 #define MAZE_H
 
 /* macros */
-#define SCREEN_WIDTH 1360
-#define SCREEN_HEIGHT 720
+#define SCREEN_WIDTH 680
+#define SCREEN_HEIGHT 420
 #define TEX_COUNT 6
 #define TEX_WIDTH 64
 #define TEX_HEIGHT 64
@@ -12,14 +12,9 @@
 #define MAP_CHAR_COUNT 1275
 
 /* header files */
-#ifdef LINUX
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_thread.h>
 #include <SDL2/SDL_image.h>
-#else
-#include <SDL.h>
-#include <SDL_image.h>
-#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

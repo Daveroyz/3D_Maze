@@ -13,3 +13,5 @@ typedef struct point_s
 	double y;
 
 } point_t;
+
+#endif
