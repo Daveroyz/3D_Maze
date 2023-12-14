@@ -7,7 +7,7 @@ The Maze was written was written in C ussing SDL2 library. Deveploment was perfo
 Instalation
 Install SDL2 and SDL2_Image on ubuntu operating system
 git clone the game repository.
-Run the following command to compile to source code "gcc -O2 -g -Wall -Werror -Wextra -pedantic -Isrc/headers *.c -lSDL2 -lSDL2_image -lm -o maze sdl2-config --cflags --libs" in the 3D_Maze repo.
+Run the following command to compile to source code "gcc -O2 -g -Wall -Werror -Wextra -pedantic -Iinc*.c -lSDL2 -lSDL2_image -lm -o maze sdl2-config --cflags --libs" in the 3D_Maze repo.
 After complete compiling run this command ./maze to start the game.
 
 Usage
